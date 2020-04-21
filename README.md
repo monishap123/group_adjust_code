@@ -15,3 +15,16 @@ Functions:
 
 2. External Functions:
   * group_adjust(vals, groups, weights): Given values, groups and weights, computes the demeaned values by group hierarchy.
+  
+3. Tests:
+Following tests are run on the group_adjust function:
+  * test_three_groups()
+  * test_two_groups()
+  * test_missing_vals()
+  * test_weights_len_equals_group_len()
+  * test_group_len_equals_vals_len()
+  * test_only_nulls_in_vals()
+  * test_group_contains_null_vals()
+  * test_non_numeric_vals()
+  * test_non_numeric_weights()
+  * test_performance()
